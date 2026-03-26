@@ -1,0 +1,177 @@
+h1 {
+    font-family: "Sirivennela", sans-serif ;
+    font-size: 300px;
+    font-weight: 550;
+    text-align: center;
+    margin: -20px;
+}
+
+.home {
+    background: url(Background/background2\ \(1\).png);
+    background-size: cover;
+}
+
+.container {
+    height: calc(100vh - 0px);
+    background-color: rgb(224, 242, 253);
+    display: block;
+    margin: 40px;
+    border: 2px solid black;
+    padding: 40px;
+    padding-bottom: 800px;
+}
+
+h2{
+    font-family: "Noto Serif", serif;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    padding-top: 35px;
+    letter-spacing: 3px;
+}
+
+.words{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    font-size: 22px;  
+    margin-left: 50px;
+    margin-right: 50px;
+    color: rgb(94, 83, 83);
+}
+
+.divider {
+  width: 80px;
+  height: 3px;
+  background-color: #026391;
+  margin: 5px auto;
+  border-radius: 10px;
+}
+
+.container h3{
+     font-family: "Meow Script", cursive;
+    font-weight: 400;
+    font-size: 60px;
+    margin-top: -20px;
+}
+
+#resources {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 28px;  
+    margin-left: 50px;
+    margin-right: 50px;
+    color: rgb(94, 83, 83);
+}
+
+.important {
+    color:rgb(5, 5, 5);
+    font-weight: 700;
+}
+
+.buttons-options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    margin-top: 20px;
+}
+
+#button1 {
+    background-color: rgba(73, 99, 160, 0.89);
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+    border-radius: 999px;
+    cursor: pointer;
+    padding: 10px 20px;  
+    text-decoration: none; 
+    transition: all 0.3s ease;
+}
+
+#button2 {
+    background-color: rgba(73, 99, 160, 0.89);
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+    border-radius: 999px;
+    padding: 10px 20px;  
+    text-decoration: none; 
+    transition: all 0.3s ease;
+}
+
+#button1:hover {
+    background-color: rgba(152, 179, 243, 0.925);
+    transform: scale(1.05);
+}
+
+#button1:active {
+    background-color: rgba(73, 99, 160, 0.89);
+    transform: scale(0.95);
+    
+}
+
+#button2:hover {
+    background-color: rgba(152, 179, 243, 0.925);
+    transform: scale(1.05);
+}
+
+#button2:active {
+    background-color: rgba(73, 99, 160, 0.89);
+    transform: scale(0.95);
+    
+}
+
+#message1 #message2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: #000000;
+    opacity: 0;              
+    transition: opacity 0.7s ease;
+}
+
+.visible { 
+    opacity: 1;
+}
+
+.resources-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: #fdf363b0;
+    color: #000000;
+    border-radius: 933px;
+    cursor: pointer;
+    padding: 10px 20px;  
+    text-decoration: none; 
+    transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #fff240e3;
+    transform: scale(1.05); 
+}
+
+.btn:active {
+    background-color: #fff89ae3;
+    transform: scale(0.95);
+}
+
+
+
+
+
+
+
