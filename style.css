@@ -169,7 +169,25 @@ h2{
     transform: scale(0.95);
 }
 
+.funfacts-body {
+    background: url(Background/background3.jpg);
+    background-size: cover;
+}
 
+.container2 {
+    height: calc(100vh - 0px);
+    background-color: rgb(243, 243, 243);
+    display: block;
+    margin: 40px;
+    border: 2px solid black;
+    padding: 40px;
+    padding-bottom: 800px;
+}
+
+.breakfast-body {
+    background: url(Background/background4.jpg);
+    background-size: cover;
+}
 
 
 
