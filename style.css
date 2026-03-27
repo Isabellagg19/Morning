@@ -178,15 +178,31 @@ h2{
     height: calc(100vh - 0px);
     background-color: rgb(243, 243, 243);
     display: block;
-    margin: 40px;
+    margin: 80px;
     border: 2px solid black;
     padding: 40px;
     padding-bottom: 800px;
 }
 
 .breakfast-body {
+    background: url(Background/background5.jpg);
+    background-size: cover;
+}
+
+.strategies-body {
     background: url(Background/background4.jpg);
     background-size: cover;
+}
+
+h3 {
+    font-family: "Noto Serif", serif;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    padding-top: 9px;
+    letter-spacing: 7px;
+    margin-top: -20px;
+    color: #2c2c2c;
 }
 
 
