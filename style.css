@@ -194,7 +194,7 @@ h2{
     background-size: cover;
 }
 
-h3 {
+h4 {
     font-family: "Noto Serif", serif;
     text-align: center;
     font-size: 25px;
@@ -203,6 +203,14 @@ h3 {
     letter-spacing: 7px;
     margin-top: -20px;
     color: #2c2c2c;
+}
+
+.breakfast-kinds {
+    text-align: left;
+    font-size: 25px;  
+    margin-left: 50px;
+    margin-right: 50px;
+    color: rgb(0, 0, 0);
 }
 
 
