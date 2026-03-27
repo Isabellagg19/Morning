@@ -206,11 +206,20 @@ h4 {
 }
 
 .breakfast-kinds {
+    font-family: "Libre Caslon Display", serif;
+    font-weight: 500;
     text-align: left;
-    font-size: 25px;  
+    font-size: 37px;  
     margin-left: 50px;
     margin-right: 50px;
+    margin-bottom: -15px;
     color: rgb(0, 0, 0);
+}
+
+.breakfast-box li {
+    margin-left: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
 }
 
 
