@@ -22,4 +22,12 @@ button2.addEventListener("click", function(){
         message2.textContent = "SO, you're probably a night owl🦉"; 
         message2.classList.add ("visible");
     }
+
+});
+  const buttons = document.querySelectorAll(".toggleprep");
+  buttons.forEach(btn => {
+  btn.addEventListener("click", () => {
+    const prep = btn.nextElementSibling;
+    prep.style.display = prep.style.display === "none" ? "block" : "none";
+  });
 });

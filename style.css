@@ -24,7 +24,7 @@ h1 {
 h2{
     font-family: "Noto Serif", serif;
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 400;
     padding-top: 35px;
     letter-spacing: 3px;
@@ -207,26 +207,31 @@ h4 {
 
 .breakfast-kinds {
     font-family: "Libre Caslon Display", serif;
-    font-weight: 500;
+    font-weight: 600;
     text-align: left;
-    font-size: 37px;  
+    font-size: 40px;  
     margin-left: 50px;
     margin-right: 50px;
-    margin-bottom: -15px;
+    margin-bottom: -7px;
     color: rgb(0, 0, 0);
+    letter-spacing: 3px;
 }
 
 .breakfast-box li {
     margin-left: 60px;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
+    font-size: 25px;
+    font-weight: 500;
 }
 
 .recipe li {
     font-size: 16px;
+    margin-left: 10px;
     font-family: 'Times New Roman', Times, serif;
 }
 
-
+.recipe p {
+    font-size: 18px;
+}
 
 
