@@ -181,7 +181,7 @@ h2{
     margin: 80px;
     border: 2px solid black;
     padding: 40px;
-    padding-bottom: 2000px;
+    padding-bottom: 8000px;
 }
 
 .breakfast-body {
@@ -232,6 +232,52 @@ h4 {
 
 .recipe p {
     font-size: 18px;
+
 }
 
+.preparation {
+  display: none;          
+  margin-top: 10px;
+  padding: 10px;
+  background: #f0f8ff;
+  border-radius: 8px;
+  transition: all 0.5s ease;
+}
 
+button.toggleprep {
+  display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #000000;
+    border-radius: 933px;
+    cursor: pointer;
+    padding: 6px 12px;  
+    text-decoration: none; 
+    background-color: #ffcc70;
+    margin-top: 5px;
+    margin-bottom: 9px;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+button.toggleprep:hover {
+  background-color: #ffa500;
+}
+
+button.toggleprep:active {
+  background-color: #ffcc70;
+}
+
+.preparation {
+  font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+    max-width: 750px;
+    margin-left: 10px;
+    background:#f0f8ff;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.06);
+    line-height: 1.8;
+    text-align: left;
+    position:relative;
+    border-left: 6px solid #e8cfa0;
+    margin-bottom: 18px;
+    }

@@ -24,10 +24,4 @@ button2.addEventListener("click", function(){
     }
 
 });
-  const buttons = document.querySelectorAll(".toggleprep");
-  buttons.forEach(btn => {
-  btn.addEventListener("click", () => {
-    const prep = btn.nextElementSibling;
-    prep.style.display = prep.style.display === "none" ? "block" : "none";
-  });
-});
+
