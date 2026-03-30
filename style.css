@@ -302,6 +302,10 @@ button.toggleprep:active {
         background-color: #f4fa9b;
     }
 
+    #funfact-btn:active {
+        background-color: #f4ff5b;
+    }
+
 #funfact {
     font-family: "Noto Serif", serif;
     text-align: center;
@@ -311,4 +315,11 @@ button.toggleprep:active {
     letter-spacing: 4px;
     margin-top: -20px;
     color: #2c2c2c;
+}
+
+.tips {
+    font-size: 18px;
+    margin-left: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
 }
