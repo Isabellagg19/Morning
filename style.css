@@ -328,10 +328,10 @@ button.toggleprep:active {
 .subtitle {
     font-family: 'Times New Roman', Times, serif;
     text-align: left;
-    font-size: 18px;  
+    font-size: 20px;  
     margin-left: 50px;
     margin-right: 50px;
-    color: rgb(78, 71, 71);
+    color: rgb(63, 61, 61);
 }
 
 .space {
@@ -345,7 +345,7 @@ button.toggleprep:active {
     margin-right: 80px;
     margin-top: 90px;
     padding: 50px;
-    background-color: #87abf7;
+    background-color: #adc5fa96;
     border-radius: 80px;
     text-align: center;
 }
@@ -364,16 +364,25 @@ button.toggleprep:active {
     cursor: pointer;
     padding: 15px;  
     text-decoration: none; 
-    background-color: #fcfdf0;
+    background-color: #8886fc;
     margin-top: 5px;
     margin-bottom: 9px;
     transition: transform 0.2s ease, background-color 0.3s ease;
 }
 
 #motivation-btn:hover {
-    background-color: #aaaaaa;
+    background-color: #8f8f8f;
 }
 
 #motivation-btn:active {
     background-color: #ffffff;
+}
+
+.picture {
+  justify-content:center;
+  height: auto;
+  margin: 30px auto;
+  margin-bottom: 0%;
+  display: block;
+  max-width: 100%
 }
