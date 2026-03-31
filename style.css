@@ -318,8 +318,22 @@ button.toggleprep:active {
 }
 
 .tips {
-    font-size: 18px;
-    margin-left: 10px;
+    margin-left: 4px;
     font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 500;
     color: #000000;
+}
+
+.subtitle {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    font-size: 18px;  
+    margin-left: 50px;
+    margin-right: 50px;
+    color: rgb(78, 71, 71);
+}
+
+.space {
+    margin-bottom: 70px;
 }
