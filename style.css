@@ -337,3 +337,43 @@ button.toggleprep:active {
 .space {
     margin-bottom: 70px;
 }
+
+.motivation-box {
+    display: block;
+    justify-content: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 90px;
+    padding: 50px;
+    background-color: #87abf7;
+    border-radius: 80px;
+    text-align: center;
+}
+
+#motivation {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: #000000;
+}
+
+#motivation-btn {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: #000000;
+    border-radius: 999px;
+    cursor: pointer;
+    padding: 15px;  
+    text-decoration: none; 
+    background-color: #fcfdf0;
+    margin-top: 5px;
+    margin-bottom: 9px;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+#motivation-btn:hover {
+    background-color: #aaaaaa;
+}
+
+#motivation-btn:active {
+    background-color: #ffffff;
+}
